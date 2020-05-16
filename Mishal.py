@@ -322,7 +322,7 @@ def pilih_super():
 			        if 'www.facebook.com' in q["error_msg"]:
 				    print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass1
 
-					cekccek = open("out/super_cp.txt", "a")
+					cek = open("out/super_cp.txt", "a")
 
 					cek.write(user+"|"+pass1+"\n")
 
@@ -345,7 +345,7 @@ def pilih_super():
 			                   if 'www.facebook.com' in q["error_msg"]:
 				               print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass2
 
-					cekccek = open("out/super_cp.txt", "a")
+					cek = open("out/super_cp.txt", "a")
 
 					cek.write(user+"|"+pass2+"\n")
 
@@ -368,7 +368,7 @@ def pilih_super():
 			                               if 'www.facebook.com' in q["error_msg"]:
 				                           print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass3
 
-					cekccek = open("out/super_cp.txt", "a")
+					cek = open("out/super_cp.txt", "a")
 
 					cek.write(user+"|"+pass3+"\n")
 
