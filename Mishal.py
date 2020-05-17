@@ -450,10 +450,11 @@ def pilih_super():
 				                                                                                                   cek.write("ID:" +user+ " Pw:" +pass9+"\n")
 				                                                                                                   cek.close()
 				                                                                                                   cekpoint.append(user+pass9)	
+																
                                                                                                                                      
   
-except:
-pass
+                except:
+                       pass
 		
 	p = ThreadPool(30)
 	p.map(main, id)
