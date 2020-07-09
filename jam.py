@@ -13,7 +13,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
 
 def keluar():
@@ -49,15 +49,15 @@ def jalan(z):
 #### LOGO ####
 logo = """
 
-\033[0;36m███╗░░░███╗██╗░██████╗██╗░░██╗██╗
-\033[0;32m████╗░████║██║██╔════╝██║░░██║██║
-\033[0;39m██╔████╔██║██║╚█████╗░███████║██║
-\033[0;33m██║╚██╔╝██║██║░╚═══██╗██╔══██║██║
-\033[0;31m██║░╚═╝░██║██║██████╔╝██║░░██║██║
-\033[0;36m╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝
+\x1b[1;94m░░░░░██╗░█████╗░███╗░░░███╗
+\x1b[1;94m░░░░░██║██╔══██╗████╗░████║
+\x1b[1;94m░░░░░██║███████║██╔████╔██║
+\x1b[1;94m██╗░░██║██╔══██║██║╚██╔╝██║
+\x1b[1;94m╚█████╔╝██║░░██║██║░╚═╝░██║
+\x1b[1;94m░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
-\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mJAM-SHAHRUKH_X_MISHAL-KHAN\033[0;31m║
-\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/JAM-X-MISHI\033[0m \033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mJAM-SHAHRUKH_\033[0;31m║
+\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/JAM\033[0m \033[0;31m║
 \033[0;39m║\033[0;36m* \033[0;32mWhatsApp \033[1;32m: \033[1;32m+971528752764\033[0;31m║
 \033[0;39m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
 
@@ -85,7 +85,7 @@ print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m
 print " \x1b[1;93m⚔═══════════════════════☠════════════════════════⚔"
 
 CorrectUsername = "jam"
-CorrectPassword = "mishi"
+CorrectPassword = "jam"
 
 loop = 'true'
 while (loop == 'true'):
@@ -299,10 +299,10 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
-	print "   \033[1;31;48m●══════════════════════☠══════════════════════●"
+	print "   \033[1;31;48m●══════════════════════JAM══════════════════════●"
 
-	jalan('            \033[1;91mJam x Mishi start cloning Wait...')
-	print  "  \033[1;36;48m ●══════════════════════☠══════════════════════●" 
+	jalan('            \033[1;91mJam start cloning Wait...')
+	print  "  \033[1;36;48m ●══════════════════════JAM══════════════════════●" 
 
 	def main(arg):
 		global cekpoint,oks
@@ -408,7 +408,7 @@ def pilih_super():
 	print "\033[1;32;40m[+] Total OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
 	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
 	print """
-\033[1;31;40m ●══════════════════════☠═══════════════════════●	           """
+\033[1;31;40m ●═════════════════════JAM═══════════════════════●	           """
 	raw_input("\n\033[1;96m[\033[1;97mExit\033[1;96m]")
 	super()
 
